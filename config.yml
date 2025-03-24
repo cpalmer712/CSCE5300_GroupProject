@@ -1,0 +1,3 @@
+namenode_host: "72.158.228.133"  # Replace with your IP address --> go to IPchicken.com
+port: 50070                     # Adjust port as needed (e.g., 9870)
+user: "hdfs" 
