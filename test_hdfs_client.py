@@ -1,5 +1,5 @@
 import unittest
-from DataToHDFS import HDFSClient
+from uploader.DataToHDFS import HDFSClient
 
 class TestHDFSClient(unittest.TestCase):
     def setUp(self):

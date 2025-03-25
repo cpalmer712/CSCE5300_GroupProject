@@ -1,0 +1,3 @@
+namenode_host: "namenode"
+port: 9870
+user: "hdfs"

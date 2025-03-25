@@ -4,7 +4,7 @@ from hdfs import InsecureClient
 
 class HDFSClient:
     #Input local path for 'config.yml' file as the config_path variable
-    def __init__(self, config_path='/Users/carsonpalmer/CSCE5300_GroupProject/config/config/config.yml'):
+    def __init__(self, config_path='C:/Users/joeni/OneDrive/Documents/CSCE5300_GroupProject/config.yml'):
         self.config = self.load_config(config_path)
         self.client = InsecureClient(
             f"http://{self.config['namenode_host']}:{self.config['port']}",
